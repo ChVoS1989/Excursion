@@ -4,14 +4,18 @@ html{
 
 body{
     background-color: black;
-    text-align: center;
-
+    text-align: center; 
 }
 
 h1{
     font-size: 50px;
     font-weight: normal;
     color:white;
+}
+
+video{
+    width:50%;
+    margin-top: 20px;
 }
 
 a{
@@ -26,7 +30,7 @@ h2{
 }
 
 img.camp{
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 
@@ -42,4 +46,24 @@ p{
 
 footer{
     text-align: right;
+}
+/*-----------media queries-------------*/
+
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    }
+    img.phone{
+        width:30px;
+        height: auto;
+    }   
 }
