@@ -1,0 +1,45 @@
+html{
+    font-family: Verdana, sans-serif;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+
+}
+
+h1{
+    font-size: 50px;
+    font-weight: normal;
+    color:white;
+}
+
+a{
+    color: aquamarine;
+    font-size: 16px;
+}
+
+h2{
+    font-size: 42px;
+    color: white;
+    font-weight: 300;
+}
+
+img.camp{
+    width: 80%;
+    height: auto;
+}
+
+img.phone{
+    width: auto;
+    height: auto;
+}
+
+p{
+    font-size: 21px;
+    color: gray;
+}
+
+footer{
+    text-align: right;
+}
